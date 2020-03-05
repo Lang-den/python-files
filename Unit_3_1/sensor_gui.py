@@ -47,7 +47,7 @@ def start_recording():
     ax.set_ylabel('Frequency(dB)')
     ax.set_xticks(time)
     ax.grid(b=True)
-    plt.ion()
+    #plt.ion()
     
     sensor.stop()
     #sensor.close()
